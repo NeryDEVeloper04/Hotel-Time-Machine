@@ -1,0 +1,15 @@
+<!DOCTYPE html><html lang="pt-BR"><head><meta charset="utf-8"><title>Hotel Time Machine · Um andar para cada década</title>
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Montserrat:wght@400;500;600&family=Exo+2:wght@400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css"></head><body>
+<nav><b>TIME MACHINE HOTEL</b><div><a class="h" href="#andares">Andares</a><a class="h" href="#servicos">Serviços</a><a href="#reservas">Reservar</a></div></nav>
+<header class="hero" id="top"><div><h1 class="logo" aria-label="Time Machine Hotel"><span>TIME</span><span>MACHINE</span><small>HOTEL</small></h1><p>Do Drive-In do térreo ao futuro da cobertura: cinco décadas, um andar para cada.</p><a class="btn"  href="#andares">Entrar no hotel</a></div></header>
+<section id="andares"><h2>Suba de andar</h2><p style="color:var(--mut)">Toque no elevador para viajar no tempo.</p>
+<div class="lift" id="lift"></div><div class="floor" id="floor"></div></section>
+<section id="servicos"><h2>Serviços</h2>
+<div class="grid3"><div><h3>Cinema Drive-In</h3>Sessões clássicas toda noite no pátio, com mesas ou nos conversíveis.</div><div><h3>Snack Bar</h3>Pipoca, refrigerantes, sorvetes e hot dogs até a última sessão.</div><div><h3>Diner 24h</h3>Balcão, boxes de couro vermelho e jukebox sempre ligada.</div><div><h3>Salão de Jazz</h3>Música ao vivo, coquetéis e pista de dança em estilo Art Déco.</div></div></section>
+<section id="reservas"><h2>Reservas</h2>
+<form id="f"><label>Andar<select id="fl"></select></label><label>Check-in<input type="date" id="ci" required></label><label>Check-out<input type="date" id="co" required></label><label>Hóspedes<input type="number" id="g" min="1" max="4" value="2"></label><label>Nome<input id="n" required></label><label>E-mail<input type="email" id="e" required></label><div style="align-self:end"><button class="btn" type="submit">Reservar</button></div></form>
+<div id="msg"></div></section>
+<footer>© 2026 Hotel Time Machine · Arthur Meneghin Nery · Valores meramente ilustrativos</footer>
+<script src="js/script.js"></script></body></html>
